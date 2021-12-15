@@ -4,8 +4,8 @@ $ingredientes = [
     'ovo'
 ]; 
 echo '<ul>';
-foreach($ingredientes as $ing){
-    echo '<li>' .$ing. '</li>';
-}
+    foreach($ingredientes as $ing){
+        echo '<li>' .$ing. '</li>';
+    }
 echo '</ul>';
 ?>
