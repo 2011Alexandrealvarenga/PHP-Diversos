@@ -1,0 +1,2 @@
+# PHP-Diversos
+Varios exercicios
