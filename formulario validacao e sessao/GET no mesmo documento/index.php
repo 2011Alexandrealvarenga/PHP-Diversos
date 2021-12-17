@@ -1,7 +1,7 @@
 <?php 
 require ('header.php');
 ?>
-<form method="GET">
+<form method="GET" action="recebedor.php">
     <label for="">
         nome:
         <br>
