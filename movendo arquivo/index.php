@@ -2,6 +2,10 @@
 // renomeia
 // rename('teste.txt','arqrenomeado.txt');
 
-rename('lista.txt','pasta/arqrenomeado.txt');
+// movendo
+// rename('lista.txt','pasta/arqrenomeado.txt');
+
+
+copy('pasta/arqrenomeado.txt','arqrenomeado.txt');
 
 ?>
