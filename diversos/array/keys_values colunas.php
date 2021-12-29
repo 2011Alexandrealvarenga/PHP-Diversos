@@ -8,7 +8,7 @@ $array = [
 <table border="1">
 <?php foreach ($array as $chave => $value):?>
     <tr>
-        <td> <?php echo $chave ;?></td>
+        <th> <?php echo $chave ;?></th>
         <td> <?php echo $value ;?></td>
     </tr>
     <?php endforeach; ?>
