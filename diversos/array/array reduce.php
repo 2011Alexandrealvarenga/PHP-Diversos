@@ -1,17 +1,14 @@
 <?php 
-$array = ['a','b','c','d','e'];
+$numero = [1,2,3,4,5];
 
-// remove itens do array
-// primeiro parametro, array 
-// segundo de onde por posição
-// quantos itens
+// executa uma função dentro do array
+// reduz todo o array a um item só
 
-array_splice($array, 1,1);
-
-// add item no quarto parametro
-// array_splice($array, 1, 1, ['k','z']);
-
-
-print_r($array);
-
+// subtotal armazena o valor do item a cada vez que faz o ciclo
+function somar($subtotal, $item){
+    $subtotal = $subtotal + $item;
+    return $subtotal; 
+}
+$total = array_reduce($numero, 'somar');
+echo $total;
 ?>
