@@ -10,6 +10,8 @@ $array = ['a','b','c','d','e'];
 // 4 itens
 // $retorno = array_slice($array, 0, 4);
 
+// $retorno = array_slice($array, -2, 0);
+
 // itens 2 a 4
 $retorno = array_slice($array, 2, 4);
 
