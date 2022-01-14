@@ -1,5 +1,4 @@
 <?php 
-require('autoloader.php');
 // cria um caminho para nao ficar dando riquire
 spl_autoload_register(function($class){
 
@@ -9,7 +8,4 @@ spl_autoload_register(function($class){
     }
 
 });
-$m = new Matematica();
-echo $m->somar(10,20);
-
 ?>
