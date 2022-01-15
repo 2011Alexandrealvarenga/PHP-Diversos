@@ -25,6 +25,7 @@ if($id){
 <h1>Editar Usuario</h1>
 
 <form method='POST' action="editar_action.php">
+    <input type="hidden" name="id" value="<?php echo $info['id']; ?>">
     <label for="">
         nome: <br>
         <input type="text" name="name" value="<?php echo $info['nome'];?>"><br>
