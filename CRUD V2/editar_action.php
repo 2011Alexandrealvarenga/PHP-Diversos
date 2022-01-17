@@ -11,7 +11,7 @@ if($id && $name && $email){
     $sql->bindValue(":id", $id);
     $sql->execute();
 
-    header("location: index.php");
+    header("Location: index.php");
     exit;
 
 }else{
