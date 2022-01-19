@@ -20,7 +20,10 @@ if($sql->rowCount() > 0){
         <td><?php echo $usuarios['id']; ?> </td>
         <td><?php echo $usuarios['nome']; ?> </td>
         <td><?php echo $usuarios['email']; ?> </td>
-        <td></td>
+        <td>
+            <a href="editar.php?id=<?php echo $usuarios['id']; ?>">[ Editar ] </a>
+            
+        </td>
     </tr>
     <?php endforeach; ?>
 </table>
