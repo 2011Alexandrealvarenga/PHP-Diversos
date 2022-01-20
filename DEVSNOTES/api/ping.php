@@ -1,8 +1,9 @@
 <?php 
-require '../config.php';
+require ('../config.php');
 
 
 
 $array ['pong'] = true;
+
 
 require ('../return.php');
