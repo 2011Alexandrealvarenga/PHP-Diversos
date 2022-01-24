@@ -16,8 +16,10 @@ if(isset($_POST['email']) && empty($_POST['email']) == false){
         $sql = $db->query("SELECT * FROM usuarios WHERE email = '$email' AND senha = '$senha'");
         if($sql->rowCount() > 0){
             $dado = $sql->fetch();
-            print_r($dado);
 
+            // salvar o id na sessao
+            $_SESSION['id'] = $dado['id'];
+            header("location: index.php");
         }else{
 
         }
